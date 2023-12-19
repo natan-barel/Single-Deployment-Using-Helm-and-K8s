@@ -1,0 +1,49 @@
+.tech-stack-title {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.tech-stack-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 40px;
+}
+
+.tech-item {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &:hover {
+        box-shadow: 2px 2px rgba(0, 0, 0, .2);
+        transform: scale(1.2);
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .title {
+        color: white;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-item {
+        margin: 5px;
+    }
+
+    .tech-stack-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+    }
+
+    .tech-item .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .tech-item .title {
+        font-size: 1rem;
+    }
+}
