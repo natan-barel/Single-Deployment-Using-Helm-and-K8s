@@ -130,7 +130,7 @@ The resultant fields in the values.yaml file would be the following:
 
 ### Task 6: Configure the Service
 
-In Kubernetes, a ***Service*** provides an abstraction that defines access to a Pod. It sits in front of the Pod and delivers requests to the Pods behind it. The following are the types of Kubernetes Services:
+In Kubernetes, a **Service** provides an abstraction that defines access to a Pod. It sits in front of the Pod and delivers requests to the Pods behind it. The following are the types of Kubernetes Services:
 
 + `ClusterIP`
 + `NodePort`
