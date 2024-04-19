@@ -1,7 +1,7 @@
 
 # Single Deployment Using Helm and K8s
 
-This project covers the step by step guide to Containerize and Deploy Web Application using Docker, Kubernetes and Helm Charts.
+This project covers the step by step guide to Containerize and Deploy Web Application using **Docker**, **Kubernetes** and **Helm** Charts.
 
 ## DevOps Tools / Service Used
 + Docker
@@ -20,11 +20,6 @@ To deploy the Web Application on Docker, Kubernetes and Helm, we have the follow
 + Install and configure [Helm](https://helm.sh/docs/intro/quickstart/)
 
 + Install and configure [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
-
-
-
-
-
 
 ## How to work
 
